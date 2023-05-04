@@ -1,0 +1,249 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Nunito', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+  margin: 0;
+}
+
+#menu{
+  height: 80px;
+  padding: 0 20px;
+}
+#logo{
+  front-size: 30px;
+  line-height: 80px;
+  color:green;
+  float: left;
+}
+nav{
+  float: right;
+  line-height: 80px;
+}
+nav a:link{
+  text-decoration: none;
+  margin-right: 25px;
+  color: green;
+}
+nav a:hover{
+  border-bottom: 2px solid #003666;
+}
+nav a:visited{
+  text-decoration: none;
+  margin-right: 25px;
+  color: #003666;
+}
+.icon{
+  margin-right: 7px;
+  font-size:16px;
+}
+
+.isa{
+  height: 500px;
+  background-image: url("../img/side.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#homepage{
+  background-color: rgba(78, 236, 241, 0.009);
+  padding: 50px;
+  text-align: center;
+  height: 450px;
+}
+.card{
+  width: 1200px;
+  height: 300px;
+  border: 1px solid rgb(16, 8, 13);
+  padding: 0;
+}
+.cardtitle{
+  font-size: 13px;
+  color: #660000;
+}
+.cardp{
+  color: #100a0a;
+    font-size: 13px;
+    line-height: 1.6;
+
+}
+
+#black{
+  height: 300px;
+  background-color: black;
+  opacity:0.5;
+}
+
+#contents{
+  position: absolute;
+  top: 180px;
+  left: 40px;
+  transform: translate(-50½;-50½);
+  color: white;
+  font-size:20px;
+}
+
+
+#about-us{
+  background-color: #e78e4c;
+  padding: 50px;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 500;
+}
+h2{
+  font-size: 45px;
+  color: green;
+  text-shadow: 0px 1px 1px black;
+  font-weight: 600;
+}
+#container{
+  width: 1100px;
+  height: auto;
+  margin: 0 auto;
+}
+#left{
+  float: left;
+  border-right: 3px solid #445c6e;
+  font-size: 30px;
+  width: 300px;
+  color: #445c6e;
+}
+#h5left{
+  line-height: 1.6;
+  font-size: 13px;
+  font-weight: 400;
+}
+#h5left,#right{
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+}
+span{
+  font-size:50px;
+  margin-right: 7px;
+  line-height: 40px;
+  color: #003666;
+  font-weight: 600;
+  float: left;
+}
+#right{
+  float: right;
+  width: 600px;
+  color: #999999;
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 13px;
+  line-height: 1.6;
+  font-weight: 100;
+}
+.img-fluid{
+  max-width: 180½;
+  height: auto;
+}
+.mt100{
+  margin-top: 180px;
+}
+#pson{
+  color: black;
+  letter-spacing: 1px;
+  font-size: 15px;
+  line-height: 1.8;
+  margin-top: 30px;
+  font-weight: 100;
+}
+#pright{
+  color: black;
+}
+
+#contact{
+  background:rgb(36, 128, 0);
+  padding: 0px;
+  height: top;
+  text-align: top;
+}
+#h3contact{
+color: rgb(203, 32, 32);
+}
+#contactopak{
+background: rgba(255, 255, 255, 0.2);
+padding: 30px 20px;
+border-radius: 5px;
+margin-bottom: 0px;
+height: 400px;
+}
+#formgroup{
+  width: 250px;
+  float: left;
+  height: 100px;
+  text-align: right;
+}
+#leftform{
+  width: 50px;
+  float: left;
+  padding-right: 5px;
+}
+#rightform{
+  width: 50px;
+  float: right;
+  padding-left: 5px;
+}
+
+.form-control{
+  width: 10½;
+  padding: 10px;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #495057;
+  background-color: white;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+}
+textarea{
+  font-family: Arial;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #495057;
+
+}
+
+input[type="submit"]{
+  cursor: pointer;
+  background-color:white;
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 10px 30px;
+  color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+#address{
+width: 450px;
+    float: right;
+    padding-right: 5px;
+}
+#addresstitle{
+
+  font-size: 25px;
+  color: rgb(163, 24, 24);
+  float: center;
+}
+.addressp{
+  color: black;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+}
+#copyright{
+  color: white;
+  font-size: 25px;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+
+
